@@ -1,5 +1,5 @@
 export default function Home() {
-    const promise = fetch('https://socialpot.pythonanyhwere.com/checkusername',{
+    const promise = fetch('https://socialpot.pythonanywhere.com/checkusername',{
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
