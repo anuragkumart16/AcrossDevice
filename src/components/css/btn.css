@@ -1,0 +1,61 @@
+.btn-primary{
+    padding: 20px 20px;
+    /* margin: 10px 10px; */
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.btn-secondary{
+    padding: 20px 20px;
+    /* margin: 10px 10px; */
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+    background-color: #6B63FF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.btn-secondary-thin{
+    padding: 10px 20px;
+    /* margin: 10px 10px; */
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+    background-color: #6B63FF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.btn-black{
+    padding: 20px 20px;
+    /* margin: 10px 10px; */
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-black,.btn-primary,.btn-secondary,.btn-secondary-thin{
+    transition: all 0.2 ease;
+}
+
+.btn-black:hover,.btn-primary:hover,.btn-secondary:hover,.btn-secondary-thin:hover{
+    box-shadow: 0px 0px 2px 0px #f1f1f1;
+ }
+
+
+ @media  screen and (max-width:600px) {
+    .btn-black,.btn-primary,.btn-secondary,.btn-secondary-thin{
+        font-size: 0.7 rem;
+        padding: 12px 15px;
+        /* transition: all 0.2 ease; */
+    }
+}

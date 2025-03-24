@@ -1,0 +1,25 @@
+.auth-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.auth-sideimg{
+    width: 50vw;
+}
+
+.auth-btn-holder{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid ;
+}
+
+@media  screen and (max-width:600px) {
+    .auth-sideimg{
+        display: none;
+    }
+}
