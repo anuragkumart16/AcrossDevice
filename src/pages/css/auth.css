@@ -10,16 +10,36 @@
 .auth-sideimg{
     width: 50vw;
 }
-
+.auth-right-div{
+    display: flex;
+    align-items: ;
+}
 .auth-btn-holder{
     display: flex;
     gap: 10px;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid ;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgb(215, 215, 215);
+}
+
+.auth-input{
+    padding: 10px 20px;
+    width: 100%;
+    border: 1px solid ;
+    border-radius: 5px;
+}
+.auth-input-grp{
+    display: flex;
+    gap: 10px;
+    /* align-items: stretch; */
+    flex-direction: column;
+    width: 100%;
 }
 
 @media  screen and (max-width:600px) {
     .auth-sideimg{
         display: none;
+    }
+    .auth-section{
+        padding: 0px 20px;
     }
 }
